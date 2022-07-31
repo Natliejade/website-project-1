@@ -44,6 +44,20 @@ body {
 }
 
 
+.header-home-pg {
+    background-image: url('/images/winter-road.png');
+    background-size: cover;
+    background-position: 50% 80%;
+    text-align: center;
+}
+
+.header-about-pg {
+    background-image: url('/images/camera.png');
+    background-size: cover;
+    background-position: 50% 55%;
+    text-align: center;
+}
+
 /* ------------- Utility Classes --------------  */
 
 .left     {  text-align: left;     }
@@ -121,7 +135,7 @@ a:hover {
 .featured-text  { color: #B21D46 }
 .white-text     { color: white;    }
 
-.small-text     { font-size: 1.5rem; }
+.small-text     { font-size: 1.3rem; }
 .medium-text    { 
     font-size: 2.2rem; 
     line-height: 1.1;
@@ -137,6 +151,13 @@ a:hover {
     font-size: 6rem;
     display: inline-block;
     color: white;
+    line-height: 1;
+}
+
+.quote-icon-about { 
+    font-size: 6rem;
+    display: inline-block;
+    color: #B21D46;
     line-height: 1;
 }
 
@@ -156,14 +177,9 @@ a:hover {
     color: #E9E7E7;
     font-size: 0.7rem;
 }
+
 /* --------- Header & Footer Styles-------- */
 
-header {
-    background-image: url('/images/winter-road.png');
-    background-size: cover;
-    background-position: 50% 75%;
-    text-align: center;
-}
 
 header h1 {
     font-size: 1.5rem;
@@ -246,7 +262,7 @@ nav a {
     background-color: lightblue;
     background-image: url('Images/christmas-market-1.png');
     background-size: cover;
-    background-position: center;
+    background-position: 50% 80%;
     padding: 0.5rem;
     min-height: 60vh;
     color: white;
@@ -272,6 +288,37 @@ nav a {
     color: white;
   }
 
+  .bg-image7 {
+    background-color: lightblue;
+    background-image: url('Images/group-shot.jpg');
+    background-size: cover;
+    background-position: 50% 30%;
+    padding: 0.5rem;
+    min-height: 70vh;
+    color: white;
+  }
+
+
+  .bg-image8 {
+    background-color: lightblue;
+    background-image: url('Images/workstation.png');
+    background-size: cover;
+    background-position: 50% 90%;
+    padding: 0.5rem;
+    min-height: 70vh;
+    color: white;
+  }
+
+  .bg-image-us {
+    background-color: lightblue;
+    background-image: url('Images/couple.png');
+    background-size: cover;
+    background-position: 50% 30%;
+    padding: 1rem;
+    padding-bottom: 40%;
+    color: white;
+    border-radius: 50%;
+}
 
 /* --------- Icon Grid----- */
 
