@@ -30,21 +30,37 @@
 
     <!--------------------------- Navigational Header -------------->
     <header class="grid-spaceAround tall-60 header-main-pg">
-        <nav class="col-3-top right dark">
+        <nav class="col-3-top_sm-12 text-right sm-padded-b-0 hide-sm">
+            <a href="/index.html" class="md-a-dark"> Home </a>
+            <a href="/about.html" class="md-a-dark""> About </a>
+        </nav> 
+        <div class="col-3-top_sm-12 centered sm-padded-b-0 hide-sm">
+            <a class="logo dark-text" href="/index.html"> 
+                <h2>Adventure<br>Geeks</h2>
+            </a>
+        </div>
+        <nav class="col-3-top_sm-12 text-left sm-text-center hide-sm"> 
+            <a href="/product.html" class="md-a-dark""> Product </a>
+            <a href="/product.html" class="md-a-dark""> Contact </a>
+        </nav>
+<!-- shows in small media query only -->
+        <div class="col-3_sm-12-top centered sm-padded-b-0 show-sm">
+            <a class="logo dark-text" href="/index.html"> 
+                <h2>Adventure<br>Geeks</h2>
+            </a>
+        </div>
+        <nav class="col-3_sm-12-top sm-text-center sm-padded-b-0 show-sm">
             <a href="/index.html" class="md-a-dark"> Home </a>
             <a href="/about.html" class="md-a-dark"> About </a>
-        </nav> 
-        <div class="col-3-top centered">
-            <h2 class="logo"> Adventure<br>Geeks </h2>
-        </div>
-        <nav class="col-3-top left"> 
             <a href="/product.html" class="md-a-dark"> Product </a>
             <a href="/contact.html" class="md-a-dark"> Contact </a>
         </nav>
+<!-- end of show in small media query only -->
         <div class="col-12 centered light-text">
-            <h3> Work with <span class="featured-text">us</span>
+            <h3> <span class="featured-text">About </span> us 
             </h3>
-            <h1> we create viral content </h1>
+            <h1> Hey, it's great to meet you. Follow us for the best adveture resources </h1>
+            <a href="#about-us" class="down-arrow"> &#8609; </a>
         </div>
         </div>
     </header> 
@@ -65,7 +81,7 @@
 
    <!----------------------------- Features icon grid ------------------------------------->
     <section class="padded grid-center bg-light"> 
-        <div class="padded-bm col-12 text-center">
+        <div class="padded-bm col-12 centered">
             <h2> need help deciding? </h2>
         </div>
         <div class="padded-1 col-3 centered">
@@ -87,7 +103,7 @@
         <div class="col-1 text-right"> 
             <span class="quote-icon-about">“</span>    
         </div>
-        <div class="col-10 text-center"> 
+        <div class="col-10 centered"> 
             <p class=" medium-text font-weight-light"> Lorem, ipsum consectetur adipisicing elit. Similique beatae <br> maiores minus velit ipsa expedita delectus. </p>
             <p class="featured-text"> - a happy customer</p>
         </div>
@@ -112,13 +128,13 @@
         </div>
     </section>
 
-<!----------------------------- Footer ----------------------->
+    <!----------------------------- Footer ----------------------->
     <secton class="padded grid-spaceBetween bg-footer">
-        <div class="col-5-bottom light-text"> 
+        <div class="col-5-bottom_xs-12 light-text"> 
             <h2> Let's <br /> <span class="featured-text">connect</span> </h2>
             <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt mollitia voluptas cupiditate dolorum quae accusamus voluptates doloribus quo ipsa dolorem eaque est reiciendis ut quia, illum, dolor beatae corporis autem! </p>
         </div>
-        <div class="col-5-bottom left light-text"> 
+        <div class="col-5-bottom_xs-12 light-text"> 
             <p> <strong>Email:</strong> <a href="email:#"> hello@adventuregeeks.com </a> </p>
             <p> <strong>Instagram:</strong> <a href="Instagram:#"> @theadventuregeeks </a> </p>      
             <p> <strong>Youtube:</strong> adventuregeeks </p>  

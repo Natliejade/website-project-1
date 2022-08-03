@@ -28,17 +28,32 @@
 
     <!--------------------------- Navigational Header -------------->
     <header class="grid-spaceAround tall-60 header-main-pg">
-        <nav class="col-3-top right">
+        <nav class="col-3-top_sm-12 text-right sm-padded-b-0 hide-sm">
             <a href="/index.html" class="md-a-dark"> Home </a>
             <a href="/about.html" class="md-a-dark""> About </a>
         </nav> 
-        <div class="col-3-top centered">
-            <h2 class="logo"> Adventure<br>Geeks </h2>
+        <div class="col-3-top_sm-12 centered sm-padded-b-0 hide-sm">
+            <a class="logo dark-text" href="/index.html"> 
+                <h2>Adventure<br>Geeks</h2>
+            </a>
         </div>
-        <nav class="col-3-top left"> 
+        <nav class="col-3-top_sm-12 text-left sm-text-center hide-sm"> 
             <a href="/product.html" class="md-a-dark""> Product </a>
             <a href="/product.html" class="md-a-dark""> Contact </a>
         </nav>
+<!-- shows in small media query only -->
+        <div class="col-3_sm-12-top centered sm-padded-b-0 show-sm">
+            <a class="logo dark-text" href="/index.html"> 
+                <h2>Adventure<br>Geeks</h2>
+            </a>
+        </div>
+        <nav class="col-3_sm-12-top sm-text-center sm-padded-b-0 show-sm">
+            <a href="/index.html" class="md-a-dark"> Home </a>
+            <a href="/about.html" class="md-a-dark"> About </a>
+            <a href="/product.html" class="md-a-dark"> Product </a>
+            <a href="/contact.html" class="md-a-dark"> Contact </a>
+        </nav>
+<!-- end of show in small media query only -->
         <div class="col-12 centered light-text">
             <h3> <span class="featured-text">About </span> us 
             </h3>
@@ -50,10 +65,10 @@
 
 <!-------------------------- About us section ------------>
     <section id="about-us" class="grid padded"> 
-        <div class="col-6-middle bg-image bg-image-us">
+        <div class="col-6_xs-12-middle bg-image bg-image-us">
         <!--  background image green bed -->
         </div>
-        <div class="padded col-6-middle">
+        <div class="padded col-6_xs-12-middle">
             <h2> Hi, we're the <span class="featured-text">adventure geeks</span> </h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores ipsa dolore et neque quae dolorum doloremque quo odio, magni provident consequuntur non eveniet quisquam? Excepturi dolor in accusamus.</p>
             <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis suscipit esse doloremque officiis rem neque pariatur, odio numquam explicabo, provident, soluta nostrum ea earum!</p>
@@ -65,19 +80,19 @@
 <!---------------------- Feature section --------------------->
 <!-------------------- Feature About Section ----------------------------->
     <section class="grid"> 
-        <div class="padded col-6-middle"> 
+        <div class="padded col-6_sm-12-middle flex-flip-sm"> 
             <h2> how did we <span class="featured-text">meet?</span>
             </h2>
             <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores ipsa dolore et neque quae dolorum doloremque fuga unde, magni provident consequuntur non eveniet quisquam? Excepturi dolor in accusamus.</p>
             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aliquid nihil commodi dolor eveniet expedita corrupti labore quisinventore minima quisquam repellat dicta aliquam accusantium excepturi.</p> 
         </div> 
     <!---------- tbc image ----------------->
-        <div class="bg image bg-image7 tall-60 col-6">
+        <div class="bg image bg-image7 tall-60 col-6_sm-12">
         </div>
     <!---------work station image ------------->
-        <div class="bg-image bg-image8 tall-60 col-6">
+        <div class="bg-image bg-image8 tall-60 col-6_sm-12 hide-sm">
         </div>
-        <div class="padded col-6-middle">
+        <div class="padded col-6_sm-12-middle">
             <h2>who takes our <span class="featured-text">photos</span> and how do we edit?</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores ipsa dolore et neque quae dolorum doloremque quo odio, fuga unde, magni provident consequuntur non eveniet quisquam? Excepturi dolor in accusamus.</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores ipsa dolore et neque quae dolorum doloremque quo odio, fuga unde.</p>
@@ -89,7 +104,7 @@
         <div class="col-1 text-right"> 
             <span class="quote-icon-about">“</span>    
         </div>
-        <div class="col-10 text-center"> 
+        <div class="col-10 centered"> 
             <p class=" medium-text font-weight-light"> Lorem, ipsum consectetur adipisicing elit. Similique beatae <br> maiores minus velit ipsa expedita delectus. </p>
             <p class="featured-text"> - our parents said... </p>
         </div>
@@ -100,11 +115,11 @@
 
     <!----------------------------- Footer ----------------------->
     <secton class="padded grid-spaceBetween bg-footer">
-        <div class="col-5-bottom light-text"> 
+        <div class="col-5-bottom_xs-12 light-text"> 
             <h2> Let's <br /> <span class="featured-text">connect</span> </h2>
             <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt mollitia voluptas cupiditate dolorum quae accusamus voluptates doloribus quo ipsa dolorem eaque est reiciendis ut quia, illum, dolor beatae corporis autem! </p>
         </div>
-        <div class="col-5-bottom light-text"> 
+        <div class="col-5-bottom_xs-12 light-text"> 
             <p> <strong>Email:</strong> <a href="email:#"> hello@adventuregeeks.com </a> </p>
             <p> <strong>Instagram:</strong> <a href="Instagram:#"> @theadventuregeeks </a> </p>      
             <p> <strong>Youtube:</strong> adventuregeeks </p>  
