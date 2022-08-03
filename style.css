@@ -32,31 +32,62 @@ body {
   
 
 /* ------------ Image Styles -----------*/
+.bg-image {
+    background-color: #192b37;
+    background-size: cover;
+    background-position: middle;
+    min-height: 3.5rem;
+}
+
 .banner-image1 {
     background-image: url('Images/husky-sled.png');
+    background-color: #192b37;
     background-size: cover;
     background-position: 50% 60%;
     min-height: 5rem;
 }
 
-.bg-banner {
-    background-color: #B21D46;
+.banner-image2 {
+    background-image: url('');
+    background-color: #A7BEC0;
+    background-size: cover;
+    background-position: 50% 60%; 
+    min-height: 3.5rem;
+}
+
+.banner-image3 {
+    background-image: url('');
+    background-color: #A7BEC0;
+    background-size: cover;
+    background-position: 50% 60%; 
+    min-height: 3.5rem;
 }
 
 
 .header-home-pg {
     background-image: url('/images/winter-road.png');
+    background-color: #192b37;
     background-size: cover;
     background-position: 50% 80%;
     text-align: center;
 }
 
-.header-about-pg {
+.header-main-pg {
     background-image: url('/images/header-banner.png');
+    background-color: #192b37;
     background-size: cover;
     background-position: 50% 95%;
     text-align: center;
 }
+
+/* Aspect Ratio */
+.portrait-tall  { padding-bottom: 175%;   }
+.portrait       { padding-bottom: 125%;   }
+.square         { padding-bottom: 100%;   }
+.landscape      { padding-bottom: 66%;    }
+.landscape-wide { padding-bottom: 56%;    }
+.portrait-134   { padding-bottom: 134.5%; }
+
 
 /* ------------- Utility Classes --------------  */
 
@@ -84,13 +115,17 @@ body {
 .tall-90    {  min-height: 90vh;    }
 .tall-100   {  min-height: 100vh;   }
 
-.bg-dark      {  background-color: rgb(90, 90, 95);     }
-.bg-light     {  background-color: rgb(240, 240, 245);  }
-
-
+.bg-dark      {  background-color: rgb(90, 90, 95); }
+.bg-light     {  background-color: #A7BEC0  }
+.bg-banner    {  background-color: #B21D46;  }
 
 
 /* ------- Typography-styles------- */
+
+h2,h3,h4,h5,h6 {
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
 
 h2 {
     font-size: 2.5rem; 
@@ -112,6 +147,10 @@ p {
     line-height: 1.5;
     margin-bottom: 1rem;
 }
+
+li {
+    margin-left: 1rem;
+  }
 
 
 /* this makes sure that the last element in any container doesn't have margin-bottom */
@@ -136,8 +175,6 @@ a:hover {
 .hover-white:hover {
     color: white:
 }
-
-
 
 .featured-text  { color: #B21D46 }
 .white-text     { color: white;    }
@@ -253,127 +290,36 @@ nav a {
 
     
 
-/* ---------------------Card styles */
-.bg-image1 {
-    background-color: lightblue;
-    background-image: url('Images/reindeer\(1\).png');
-    background-size: cover;
-    background-position: center;
-    padding: 0.5rem;
-    min-height: 60vh;
-    color: white;
-  }
-  
-  .bg-image2 {
-    background-color: lightblue;
-    background-image: url('Images/header-bg.png');
-    background-size: cover;
-    background-position: center;
-    padding: 0.5rem;
-    min-height: 60vh;
-    color: white;
-  }
-  
-  .bg-image3 {
-    background-color: lightblue;
-    background-image: url('Images/insidehouse.png');
-    background-size: cover;
-    background-position: center;
-    padding: 0.5rem;
-    min-height: 60vh;
-    color: white;
-  }
+/* ---------------------Card/Blog styles */
+.bg-image1  { background-image: url('Images/reindeer\(1\).png'); }
+.bg-image2  { background-image: url('Images/header-bg.png');     }
+.bg-image3  { background-image: url('Images/insidehouse.png');   }
+.bg-image4  { 
+    background-image: url('Images/christmas-market-1.png'); 
+    background-position: 50% 70%;
+}
 
-  .bg-image4 {
-    background-color: lightblue;
-    background-image: url('Images/christmas-market-1.png');
-    background-size: cover;
-    background-position: 50% 80%;
-    padding: 0.5rem;
-    min-height: 60vh;
-    color: white;
-  }
-  
-  .bg-image5 {
-    background-color: lightblue;
-    background-image: url('Images/xmas-dessert.png');
-    background-size: cover;
-    background-position: center;
-    padding: 0.5rem;
-    min-height: 60vh;
-    color: white;
-  }
-  
-  .bg-image6 {
-    background-color: lightblue;
-    background-image: url('Images/christmas-drink\(1\).png');
-    background-size: cover;
-    background-position: center;
-    padding: 0.5rem;
-    min-height: 60vh;
-    color: white;
-  }
+.bg-image5  { background-image: url('Images/xmas-dessert.png');         }
+.bg-image6  { background-image: url('Images/christmas-drink\(1\).png'); }
 
 /* Image styles */
-
-  .bg-image7 {
-    background-color: lightblue;
+.bg-image7  { 
     background-image: url('Images/group-shot.jpg');
-    background-size: cover;
-    background-position: 50% 30%;
-    padding: 0.5rem;
-    min-height: 70vh;
-    color: white;
-  }
-
-
-  .bg-image8 {
-    background-color: lightblue;
+    background-position: 40% 70%;
+}
+.bg-image8  { 
     background-image: url('Images/workstation.png');
-    background-size: cover;
-    background-position: 50% 90%;
-    padding: 0.5rem;
-    min-height: 70vh;
-    color: white;
-  }
-  .bg-image9 {
-    background-color: lightblue;
-    background-image: url('');
-    background-size: cover;
-    background-position: center;
-    padding: 0.5rem;
-    min-height: 60vh;
-    color: white;
-  }
+    background-position: 50% 85%; 
+}
+.bg-image9  { background-image: url(''); }
+.bg-image10 { background-image: url(''); }
+.bg-image11 { background-image: url(''); }
 
-  .bg-image10 {
-    background-color: lightblue;
-    background-image: url('');
-    background-size: cover;
-    background-position: center;
-    padding: 0.5rem;
-    min-height: 60vh;
-    color: white;
-  }
-
-  .bg-image11 {
-    background-color: lightblue;
-    background-image: url('');
-    background-size: cover;
-    background-position: center;
-    padding: 0.5rem;
-    min-height: 60vh;
-    color: white;
-  }
-
-  .bg-image-us {
-    background-color: lightblue;
+.bg-image-us { 
     background-image: url('Images/couple.png');
-    background-size: cover;
     background-position: 50% 30%;
+    min-height: 60vh;
     padding: 1rem;
-    padding-bottom: 40%;
-    color: white;
     border-radius: 50%;
 }
 
@@ -388,3 +334,31 @@ nav a {
 
 
 
+/* ------------------- Product Card Styles */
+  
+  .card { 
+    padding: 1rem;
+    border: 1px solid white;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    letter-spacing: 0.02rem;
+  }
+  
+  .price {
+    font-size: 3.5rem; 
+    font-weight: 300;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .card p,
+  .card li {
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+
+
+  
