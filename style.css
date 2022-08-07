@@ -338,7 +338,7 @@ nav a {
 
 /* --------------------------------------- Card/Blog images */
 
-.bg-image1  { background-image: url('Images/reindeer\(1\).png'); }
+.bg-image1  { background-image: url('Images/reindeer.png')}
 .bg-image2  { background-image: url('Images/header-bg.png');     }
 .bg-image3  { background-image: url('Images/insidehouse.png');   }
 .bg-image4  { 
@@ -347,7 +347,7 @@ nav a {
 }
 
 .bg-image5  { background-image: url('Images/xmas-dessert.png');         }
-.bg-image6  { background-image: url('Images/christmas-drink\(1\).png'); }
+.bg-image6  { background-image: url('Images/christmas-drink.png'); }
 
 /* Image styles */
 .bg-image7  { 
@@ -501,6 +501,14 @@ button:hover {
   .sm-margin-b-0    { margin-bottom: 0;   }
   .sm-margin-l-0    { margin-left: 0;     }
   .sm-margin-r-0    { margin-right: 0;    }
+
+  /* ------------ Min Height-------  */
+.sm-tall-50    {  min-height: 50vh;    }
+.sm-tall-60    {  min-height: 60vh;    }
+.sm-tall-70    {  min-height: 70vh;    }
+.sm-tall-80    {  min-height: 80vh;    }
+.sm-tall-90    {  min-height: 90vh;    }
+.sm-tall-100   {  min-height: 100vh;   }
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
