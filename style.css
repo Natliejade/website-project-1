@@ -445,7 +445,7 @@ button:hover {
 
 @media (max-width: 64em) {
 
-  body { border: 5px solid pink;}
+  /* body { border: 5px solid pink;} */
 
   .show-md { display: block; }
   .hide-md { display: none;  }
@@ -458,11 +458,9 @@ button:hover {
 
 @media (max-width: 48em) {
 
-    html {
-        font-size: 14px;
-    }
+    /* html { font-size: 14px; } */
 
-  body { border: 5px solid orange;}
+  /* body { border: 5px solid orange;} */
 
   .logo h2 { font-size: 1.8rem; }
 
@@ -516,7 +514,7 @@ button:hover {
 
 @media (max-width: 36em) {
 
-  body { border: 5px solid blue; }
+  /* body { border: 5px solid blue; } */
 
   .logo h2 { font-size: 1.5rem; }
 
