@@ -107,7 +107,7 @@ body {
 
 body {
     font-family: 'Catamaran', sans-serif;
-    color: #192b37;
+    color: #2A1A0C;
 }
 
 h2,h3,h4,h5,h6 {
@@ -162,7 +162,7 @@ a:hover {
 .big-text       { font-size: 5rem;   }
 
 .light-text     { color: white;         }
-.dark-text      { color: #192b37        }
+.dark-text      { color: #2A1A0C        }
 .caps           { text-transform: uppercase; }
 .featured-text  { color: #B21D46        }
 .white-text     { color: white;         }
@@ -216,7 +216,7 @@ header h3 {
 }
 
 footer {
-    background-color: #192b37;
+    background-color: #2A1A0C;
 }
 
 .down-arrow {
@@ -238,7 +238,7 @@ footer {
 }
 
 .md-a-dark {
-    color: #192b37;
+    color: #2A1A0C;
     font-weight: bold; 
 }
 
@@ -253,7 +253,7 @@ footer {
 }
 
 .bg-footer {
-    background-color: #192b37;
+    background-color: #2A1A0C;
 }
 
 /* ------------------------------------------ Nav Styles */
@@ -269,7 +269,7 @@ nav a {
 
 /* -------------------------------------- Image Styles -----------*/
 
-.bg-dark      {  background-color: #192b37; }
+.bg-dark      {  background-color: #2A1A0C; }
 .bg-light     {  background-color: #A7BEC0  }
 .bg-banner    {  background-color: #B21D46;  }
 
@@ -277,7 +277,7 @@ nav a {
 /*------------------------------- Background images */
 .header-home-pg {
     background-image: url('/images/house-twilight.png');
-    background-color: #192b37;
+    background-color: #2A1A0C;
     background-size: cover;
     background-position: 50% 35%;
     text-align: center;
@@ -285,23 +285,23 @@ nav a {
 
 .header-main-pg {
     background-image: url('/images/header-banner.png');
-    background-color: #192b37;
+    background-color: #2A1A0C;
     background-size: cover;
     background-position: bottom;
     text-align: center;
 }
 
 .bg-image {
-    background-color: #192b37;
+    background-color: #2A1A0C;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: middle;
-    min-height: 3.5rem;
+    /* min-height: 3.5rem; */
 }
 
 .banner-image1 {
     background-image: url('Images/husky-sled.png');
-    background-color: #192b37;
+    background-color: #2A1A0C;
     background-size: cover;
     background-position: 50% 60%;
 }
@@ -412,20 +412,20 @@ textarea {
 
 input:focus,
 textarea:focus {
-    border: 2px solid #192b37;
+    border: 2px solid #2A1A0C;
     outline: none;
 }
 
 .button {
     padding: 0.5rem 2rem;
-    background-color: #192b37;
+    background-color: #2A1A0C;
     color: inherit;
     appearance: none;
-    border: 2px solid #192b37;
+    border: 2px solid #2A1A0C;
     }
 
 button:hover {
-    color: #192b37;
+    color:#2A1A0C;
     background-color: white;
     border: 3px solid;
 }
@@ -458,6 +458,10 @@ button:hover {
 
 @media (max-width: 48em) {
 
+    html {
+        font-size: 14px;
+    }
+
   body { border: 5px solid orange;}
 
   .logo h2 { font-size: 1.8rem; }
@@ -471,6 +475,13 @@ button:hover {
   .hide-sm { display: none;  }
 
   .flex-flip-sm { flex-direction: column-reverse; }
+
+ .md-stack {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 -.5rem;
+  }
+
 	 
   .sm-text-center   { text-align: center; }
   .sm-text-left     { text-align: left;   }
@@ -508,4 +519,9 @@ button:hover {
 
   .show-xs { display: block; }
   .hide-xs { display: none;  }
+
+  .featured-text-xs {
+    color:#2A1A0C;
+  }
+
 }
