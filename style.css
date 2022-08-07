@@ -276,7 +276,7 @@ nav a {
 
 /*------------------------------- Background images */
 .header-home-pg {
-    background-image: url('/images/house-twilight.png');
+    background-image: url('Images/house-twilight.png');
     background-color: #A7BEC0;
     background-size: cover;
     background-position: 50% 35%;
@@ -284,7 +284,7 @@ nav a {
 }
 
 .header-main-pg {
-    background-image: url('/images/header-banner.png');
+    background-image: url('Images/header-banner.png');
     background-color: #A7BEC0;
     background-size: cover;
     background-position: bottom;
@@ -292,7 +292,7 @@ nav a {
 }
 
 .bg-image {
-    background-color: #2A1A0C;
+    background-color: #A7BEC0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: middle;
