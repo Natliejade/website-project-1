@@ -430,6 +430,10 @@ button:hover {
     border: 3px solid;
 }
 
+/* ----------------  */
+#mlb2-1128330.ml-form-embedContainer .ml-form-embedWrapper {
+    background-color: none;
+}
 
 /* ------------------- media queries----------- */
 /* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
